@@ -22,13 +22,11 @@ Crear la clase `Mago` (en el archivo `harry.py`) que:
 - Tenga el método `vivo()` que devuelva si está vivo o no.
 - Tenga el método `avada_kedavra(mago enemigo)`, que mate al mago enemigo (usar el método morir del mago enemigo).
 
-Luego, crear una serie de tests de unidad para la clase `Mago` en el archivo `harry_tests.py`. Algunas cosas a tener en cuenta:
-- Testear el estado inicial del mago
-- Tratar en lo posible de testear los métodos de forma independiente, pero algunos no se puede ( `avada_kedavra` con `vivo`)
-- **NO** testeen `morir`. No porque no se deba hacer, si no porque lo vamos a considerar "privado", es decir, que no va a ser llamado por las instancias de forma directa si no por otros métodos.
-- Concentrarse en situaciones, como por ejemplo `avada_kedavra` sin *horrocruxes*, `avada_kedavra` con *horrocruxes*, `avada_kedavra` suficientes veces como para acabar con los *horrocruxes*, etc.
+Prueben que ande corriendo los tests con:
 
-Pueden trabajar la clase y los tests de forma independiente.
+```bash
+python -m pytest
+```
 
 ## Datos de color
 
