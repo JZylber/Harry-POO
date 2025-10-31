@@ -1,8 +1,16 @@
 # Harry Potter y la programación orientada a objetos
 
+## Instalación
+
+Necesitan pytest para correr los tests. Pueden instalarlo con requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Introducción
 
-En el mundo de Harry Potter, el hechizo *Avada Kedavra*, mata al oponente. Sin embargo, mediante el uso de *Horrocruxes*, el hechicero divide parte de su alma y puede revivir mientras tenga alguno. Es decir, un hechicero puede revivir solo si tiene algún *Horrocrux* disponible.
+En el mundo de Harry Potter, el hechizo *Avada Kedavra*, mata al oponente. Sin embargo, mediante el uso de *Horrocruxes*, el hechizero divide parte de su alma y puede revivir mientras tenga alguno. Es decir, un hechizero puede revivir solo si tiene algún *Horrocrux* disponible.
 
 ## Consigna
 
